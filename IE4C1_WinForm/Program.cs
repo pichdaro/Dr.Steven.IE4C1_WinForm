@@ -16,6 +16,7 @@ namespace IE4C1_WinForm
             frmLogin login = new frmLogin();
             if (login.ShowDialog() == DialogResult.OK)
             {
+                //Run frmMain form when login success
                 Application.Run(new frmMain());
             }
         }
